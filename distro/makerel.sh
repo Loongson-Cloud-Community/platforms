@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -x
+
 if [[ $# != 1 ]] ; then
   echo "usage: $0 version"
   exit 1
